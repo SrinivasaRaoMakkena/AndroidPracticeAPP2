@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_list_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nwmissouri.gesturespractice.ListViewActivity">
+
+<TextView
+    android:id="@+id/welcomeID"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:layout_marginTop="40dp"
+    android:layout_centerHorizontal="true"
+    android:text="WELCOME"
+    android:textSize="25sp"
+    android:textColor="#ff3122"
+    />
+
+    <ListView
+        android:id="@+id/listOfAllActivities"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ff8"/>
+</RelativeLayout>
